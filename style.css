@@ -1,0 +1,143 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* navbar section */
+.navbar{
+    width: 100%;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+.navbar{
+    background-color: #000;
+}
+
+
+/* carousel section */
+.carousel-img-1{
+    background-image: url(image/image1.jpeg);
+    background-size: cover;
+    height: 450px;
+}
+.carousel-img-2{
+    background-image: url(image/image2.jpeg);
+    background-size: cover;
+    height: 450px;
+}
+.carousel-img-3{
+    background-image: url(image/image3.jpeg);
+    background-size: cover;
+    height: 450px;
+}
+
+/* home icon */
+#homeIcon .fa{
+   font-size: 50px;
+}
+
+/* get started section */
+#getStarted{
+    /* position: relative;
+    height: 250px; */
+    background-image: url(image/pc.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+    /* position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; */
+}
+
+/* home button section */
+#homeVideo{
+    background-image: url(image/image5.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#homeVideo .fa{
+    font-size: 50px;
+    color: #ff0000;
+}
+
+/* gallery */
+#gallery img{
+    min-height: 210px;
+    /* box-shadow: 5px 5px 10px #000; */
+}
+
+/* copyright section */
+#copyRight{
+    background: #000;
+    font-size: 20px;
+}
+
+
+
+/* ABOUT US PAGE IS STARTING HERE */
+/* about section */
+#about{
+    background-image: url(image/image2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+/* what we do section */
+#what-do img{
+    height: 350px;
+    width: 350px;
+}
+
+/* icon box */
+#icon-box .fa{
+    font-size: 50px;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonial .slick-prev:before, .slick-next:before{
+    color: #000;
+}
+
+
+
+
+/* media query */
+@media(max-width: 767px){
+    .nav-item{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 480px){
+    .carousel h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 480px){
+    #homeButton h2{
+        font-size: 1.5rem;
+    }
+    #getStarted h3{
+        font-size: 1.5rem;
+    }
+    #newsletter h2{
+        font-size: 1.8rem;
+    }
+    #contact h4{
+        font-size: 1.2rem;
+    }
+}
